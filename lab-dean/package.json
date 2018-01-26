@@ -1,0 +1,25 @@
+{
+  "name": "10-stacks-queues",
+  "version": "1.0.0",
+  "description": "![cf](http://i.imgur.com/7v5ASc8.png) lab 15 - Stacks and Queues Data Structures ====",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmurphy90/10-stacks-queues.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmurphy90/10-stacks-queues/issues"
+  },
+  "homepage": "https://github.com/dmurphy90/10-stacks-queues#readme",
+  "dependencies": {
+    "jest": "^22.1.4"
+  }
+}
