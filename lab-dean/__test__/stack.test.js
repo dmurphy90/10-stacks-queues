@@ -14,7 +14,7 @@ describe('Stack Data Structure Module', function() {
       expect(this.stack.top).toBeNull();
     });
     it('Should have a default value of 0 assigned to the size property', () => {
-      expect(this.stacks.size).toEqual(0);
+      expect(this.stack.size).toEqual(0);
     });
     it('Should have a maxSize property with a default val of 1048', () => {
       expect(this.stack.maxSize).toEqual(1048);

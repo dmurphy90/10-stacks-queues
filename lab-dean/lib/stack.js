@@ -29,6 +29,6 @@ module.exports = class {
   }
 
   peek() {
-    return this.thop;
+    return this.top;
   }
 };
