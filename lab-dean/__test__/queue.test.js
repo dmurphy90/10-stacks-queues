@@ -23,5 +23,20 @@ describe('Queue Data Structure Model', function() {
       [...Array(20)].map((e, i) => this.queue.enqueue(~~(Math.random() * i)));
       expect(this.queue.size).toEqual(20);
     });
+  }); 
+  describe('#dequeue', () => {
+    it('Should remove the first Node from the queue', () => {
+      this.queue.enqueue(1);
+      this.queue.enqueue(2);
+      expect(this.queue.dequeue().val).toEqual(2);
+    });
+    it('Should have a size counter that increments correctly', () => {
+      this.queue.enqueue(1);
+      this.queue.enqueue(2);
+      this.queue.enqueue(3);
+      this.queue.enqueue(4);
+      this.queue.dequeue();
+      expect(this.queue.size).toEqual(3);
+    });
   });
 });
