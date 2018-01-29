@@ -26,7 +26,7 @@ describe('Stack Data Structure Module', function() {
       [...Array(20)].map((e, i) => this.stack.push(~~(Math.random() * i)));
       expect(this.stack.size).toEqual(20);
     });
-    it('Should add a new node with the value of 1 t the top of the stack', () => {
+    it('Should add a new node with the value of 1 to the top of the stack', () => {
       this.stack.push(1);
       expect(this.stack.top.val).toEqual(1);
     });
